@@ -28,15 +28,20 @@
     align-items: center;
 }
 
-.scrolled {
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,.95);
     z-index: 1000;
-    margin: 0 auto;
+    background: transparent;
+    transition: background 0.3s ease;
 }
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, .95);
+}
+
 .box-header{
     list-style: none;
     display: flex;

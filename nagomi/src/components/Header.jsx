@@ -23,27 +23,22 @@ export const Header = () => {
   }, [])
 
   return (
-  
-    <header className="header">
-       <section className="box-shadow">
-        <nav  className={`container header-box ${scrolled ? 'scrolled' : ''}`}>
+  <header className="header">
+  <section className="box-shadow">
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+      <div className="container header-box">
 
-        <Link className="logo" to="/">
-        NAGOMI 和み
-        </Link>
+        <Link className="logo" to="/">NAGOMI 和み</Link>
 
-      <ul className="box-header">
-        <li><Link to="/filosofia">Filosofia</Link></li>
-        <li><Link to="/cardapio">Cardápio</Link></li>
-        <li><Link to="/chef">O Chef</Link></li>
-        <li><Link to="/omakase">Omakase</Link></li>
+        <ul className="box-header">
+          <li><Link to="/filosofia">Filosofia</Link></li>
+          <li><Link to="/cardapio">Cardápio</Link></li>
+          <li><Link to="/chef">O Chef</Link></li>
+          <li><Link to="/omakase">Omakase</Link></li>
+          <Link to="/reserva" className="btn-reserva">Reservar</Link>
+        </ul>
 
-        <Link to="/reserva" className="btn-reserva">
-            Reservar
-        </Link>
-      
-      </ul>
-
+      </div>
     </nav>
   </section>
 </header>
