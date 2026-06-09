@@ -4,12 +4,29 @@ import {Link} from 'react-router'
 
 
 export const Header = () => {
+ const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true)
+      } else {
+        setScrolled(false)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
   return (
   
     <header className="header">
        <section className="box-shadow">
-        <nav className="header-box container"  >
+        <nav  className={`container header-box ${scrolled ? 'scrolled' : ''}`}>
 
         <Link className="logo" to="/">
         NAGOMI 和み
