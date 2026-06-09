@@ -1,20 +1,26 @@
 import {BrowserRouter, Routes, Route} from 'react-router'
 import { Header } from './components/Header'
-import { Sobre } from './components/Sobre'
-import {Home} from './components/Home'
 import './style.css'
+import { Content } from './components/Content'
 function App() {
 
 
   return (
     <>
           <BrowserRouter>
-          <Header/>
+            <Content/>
+
+
+
+
+
+
+
+
+
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="sobre" element={<Sobre/>}/>
+            
           </Routes>
-          
           </BrowserRouter>
             
     </>
