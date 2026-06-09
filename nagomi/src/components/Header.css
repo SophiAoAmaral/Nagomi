@@ -1,8 +1,4 @@
-:root{
-    --font-family: "Zen Kaku Gothic New", sans-serif;
-    --font-family2: "Shippori Mincho", serif;
-    --creme: #e8e2d6;
-}
+
 
 .header{
     font-family: var(--font-family2);

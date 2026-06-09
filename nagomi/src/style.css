@@ -1,3 +1,11 @@
+:root{
+    --font-family: "Zen Kaku Gothic New", sans-serif;
+    --font-family2: "Shippori Mincho", serif;
+    --creme: #e8e2d6;
+    --vermelho: #b3402f;
+}
+
+
 *{
     margin: 0;
     padding: 0;
