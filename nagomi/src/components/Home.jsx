@@ -4,8 +4,8 @@ import './Home.css'
 
 export const Home = () => {
   return (
-    <section className='container box-content' style={{paddingTop:'5rem'}}>
-
+  <section className='container'>
+    <div className='box-content'>
     <div className='hero-content'>
 
       <div className='hero-text'>
@@ -32,7 +32,11 @@ export const Home = () => {
       <span>と</span> 
       <span>炭</span>
     </div>
-    
+    </div>
+
+    <div className='details-role'>
+      <span>Role para descer</span>
+    </div>
     
     </section>
   )
