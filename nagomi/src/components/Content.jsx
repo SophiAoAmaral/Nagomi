@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from './Header'
 import {Home} from './Home'
 import './Content.css'
+import { Apresenta } from './Apresenta'
 
 export const Content = () => {
   return (
@@ -9,6 +10,7 @@ export const Content = () => {
         <div className='box-shadow'>
             <Header/>
             <Home/>
+            <Apresenta/>
         </div>
     </section>
   )

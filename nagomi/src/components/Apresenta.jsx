@@ -1,9 +1,13 @@
 import React from 'react'
 import image1 from '../imgs/filo-1.jpg'
+import image2 from '../imgs/filo-2.jpg'
+import image3 from '../imgs/filo-3.jpg'
+import './Apresenta.css'
 
 export const Apresenta = () => {
   return (
-    <section>
+    <section className='container'>
+        <section className='container-apresent'>
         <div>
             <span className='details-filo'>Nossa filosofia</span>
             <p>Menos elementos, mais presença.</p>
@@ -22,9 +26,14 @@ export const Apresenta = () => {
             <div className='image-1'>
                 <img src={image1} alt="" />
             </div>
-            <div className='image-2'></div>
-            <div className='image-3'></div>
+            <div className='image-2'>
+                <img src={image2} alt="" />
+            </div>
+            <div className='image-3'>
+                <img src={image3} alt="" />
+            </div>
         </div>
+    </section>
 
 
 
