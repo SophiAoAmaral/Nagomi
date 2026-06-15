@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router'
-import { Header } from './components/Header'
+import { Header } from '../src/components/Header/Header'
 import './style.css'
-import { Content } from './components/Content'
+import { Content } from '../src/components/Content/Content'
 function App() {
 
 
@@ -9,14 +9,6 @@ function App() {
     <>
           <BrowserRouter>
             <Content/>
-
-
-
-
-
-
-
-
 
           <Routes>
             

@@ -5,7 +5,7 @@ import './Home.css'
 export const Home = () => {
   return (
   <section className='container'>
-    <div className='box-content'>
+    <div className='box-content animaLeft'>
     <div className='hero-content'>
 
       <div className='hero-text'>

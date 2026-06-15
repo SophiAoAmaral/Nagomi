@@ -1,12 +1,12 @@
 import React from 'react'
-import { Header } from './Header'
-import {Home} from './Home'
+import { Header } from '../Header/Header'
+import {Home} from '../Home/Home'
 import './Content.css'
-import { Apresenta } from './Apresenta'
+import { Apresenta } from '../Apresentacao/Apresenta'
 
 export const Content = () => {
   return (
-    <section className='box-container'>
+    <section className='box-container '>
         <div className='box-shadow'>
             <Header/>
             <Home/>

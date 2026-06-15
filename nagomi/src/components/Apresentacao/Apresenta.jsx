@@ -1,14 +1,14 @@
 import React from 'react'
-import image1 from '../imgs/filo-1.jpg'
-import image2 from '../imgs/filo-2.jpg'
-import image3 from '../imgs/filo-3.jpg'
+import image1 from '../../imgs/filo-1.jpg'
+import image2 from '../../imgs/filo-1.jpg'
+import image3 from '../../imgs/filo-1.jpg'
 import './Apresenta.css'
 
 export const Apresenta = () => {
   return (
    <section className='content-apresent'>
     <section className='container'>
-      <section className='container-apresent'>
+      <section className='container-apresent animaLeft'>
         <div className='box-apresentation'>
             <p className='details-filo'> 心 · Nossa filosofia</p>
             <p className='title-apresent'>Menos elementos, mais presença.</p>
