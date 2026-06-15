@@ -3,6 +3,13 @@
     --font-family2: "Shippori Mincho", serif;
     --creme: #e8e2d6;
     --vermelho: #b3402f;
+    --background: #16130f;
+    --background-2: #1c1813;
+    --cartoes: #221d16;
+    --text-creme-50: rgba(232, 226, 214, 0.58);
+    --destaque: #8a7d63;
+    --destaque-claro: #b3a585;
+    --linhas: rgba(232, 226, 214, 0.12);
 }
 
 
@@ -13,7 +20,7 @@
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1600px;
     padding: 0 1rem;
     margin: 0 auto;
 }

@@ -6,20 +6,23 @@ import './Apresenta.css'
 
 export const Apresenta = () => {
   return (
+   <section className='content-apresent'>
     <section className='container'>
-        <section className='container-apresent'>
-        <div>
-            <span className='details-filo'>Nossa filosofia</span>
-            <p>Menos elementos, mais presença.</p>
-            <p>Acreditamos que no shun  o instante exato em que cada ingrediente atinge seu
-                auge. Trabalhamoscom poucos fornecedores, peixe pescado por linha e arroz cultivado
+      <section className='container-apresent'>
+        <div className='box-apresentation'>
+            <p className='details-filo'> 心 · Nossa filosofia</p>
+            <p className='title-apresent'>Menos elementos, mais presença.</p>
+            <p className='text-apresent'>Acreditamos que no <span>shun</span>  o instante exato em que cada ingrediente atinge seu
+                auge. Trabalhamos com poucos fornecedores, peixe pescado por linha e arroz cultivado
                 para nós.
             </p>
-            <p>Nada de excessos. O tempero correto é aquele que  você não percebe: ele apenas
+            <p className='subtext-apresent'>Nada de excessos. O tempero correto é aquele que  você não percebe: ele apenas
                 revela o que o ingrediente já era.
             </p>
-            <span>「 旬を味わう 」</span>
-            <span>saborear a estação</span>
+            <div className='details-apresent'>
+                <span>「 旬を味わう 」</span>
+                <span>saborear a estação</span>
+            </div>
         </div>
 
         <div className='content-images'>
@@ -33,12 +36,8 @@ export const Apresenta = () => {
                 <img src={image3} alt="" />
             </div>
         </div>
-    </section>
-
-
-
-
-
-    </section>
+            </section>
+        </section>
+    </section> 
   )
 }

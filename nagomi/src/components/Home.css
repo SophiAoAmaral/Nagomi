@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     padding-top: 6rem;
+    height: 90vh;
 }
 
 .hero-content{
@@ -121,9 +122,10 @@
     color: #b3a585;
     font-family: var(--font-family);
     text-transform: uppercase;
-    margin-top:2rem;
+    margin-top:1rem;
     margin-left: 3.2rem;
     position: relative;
+    margin-bottom: 50px;
 }
 .details-role span::before{
     content: '';
