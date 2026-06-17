@@ -34,8 +34,8 @@ export const Header = () => {
             <li><a href='#filosofia'>Filosofia</a></li>
             <li><a href='#cardapio' >Cardápio</a></li>
             <li><a href='#chef'>O Chef</a></li>
-            <li><a href='#chef' >Omakase</a></li>
-            <a className="btn-reserva">Reservar</a>
+            <li><a href='#omakase' >Omakase</a></li>
+            <a className="btn-reserva" href='#reservar'>Reservar</a>
           </ul>
         </div>
       </nav>

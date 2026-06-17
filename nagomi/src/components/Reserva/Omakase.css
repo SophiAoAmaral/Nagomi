@@ -1,0 +1,78 @@
+.box__omakase {
+    background-image: url(../../imgs/background-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    font-family: var(--font-family2);
+}
+
+.shadow__omakase{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.658), rgba(9, 10, 9, 0.404));
+}
+
+
+
+.container__omakase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15rem;
+}
+
+.destaques__omakase{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 0px;
+}
+.omakase__detail{
+    color: var(--destaque);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+
+.omakase__title{
+    color: var(--creme);
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.omakase__text{
+    color: var(--destaque-claro);
+    width: 30%;
+    text-align: center;
+}
+
+.destaque__omakase{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--destaque-claro);
+    font-size: 1.5rem;
+}
+
+
+.button{
+    background-color: var(--vermelho);
+    padding: 1rem;
+    margin-top: 5px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.button a{
+    text-decoration: none;
+    color: var(--destaque-claro);
+}
+
+.button:hover{
+    background: #4d1c14;
+}

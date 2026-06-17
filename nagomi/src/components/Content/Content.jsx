@@ -5,6 +5,8 @@ import './Content.css'
 import { Apresenta } from '../Apresentacao/Apresenta'
 import { Cardapio } from '../Cardapio/Cardapio'
 import { Chef } from '../Chef/Chef'
+import { FormReserva } from '../FormReserva/FormReserva'
+import { Omakase } from '../Reserva/Omakase'
 
 export const Content = () => {
   return (
@@ -15,6 +17,8 @@ export const Content = () => {
             <Apresenta/>
             <Cardapio/>
             <Chef/>
+            <Omakase/>
+            <FormReserva/>
         </div>
     </section>
   )
