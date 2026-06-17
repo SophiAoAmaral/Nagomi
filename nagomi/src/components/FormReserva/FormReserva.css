@@ -63,38 +63,12 @@
     font-size: 0.9rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .form{
     background: var(--background);
     font-family: var(--font-family);
     height: 70vh;
+    border-bottom: 1px solid var(--linhas);
 }
-
-
-
-
-
-
-
-
-
-
 
 input, select{
     padding: 15px 8px;

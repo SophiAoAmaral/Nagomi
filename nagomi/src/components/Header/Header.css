@@ -43,8 +43,8 @@
 .logo {
     text-decoration: none;
     color: var(--creme);
-    background-color: #b3402f;
     padding: 10px;
+    font-size: 2rem;
 }
 
 .logo:hover{
