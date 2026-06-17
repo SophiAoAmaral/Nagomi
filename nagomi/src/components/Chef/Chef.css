@@ -1,0 +1,89 @@
+.chef__container{
+    background-color: #1C1813;
+}
+
+.chef__box{
+    padding: 8rem 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family2);
+}
+
+.chef__img{
+    position: relative;
+}
+
+
+.detail__chef{
+    border: 1px solid var(--destaque);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--destaque);
+    font-family: var(--font-family2);
+    border-radius: 50%;
+    padding: 30px 10px;
+    width: 100px;
+    position: absolute;
+    top: 600px;
+    right: -50px;
+    background: var(--background);
+    font-size: 0.764rem;
+    font-weight: 600;
+}
+
+.detail__chef span{
+    display: block;
+    font-size: 2rem;
+}
+
+.chef__apresentacao{
+    color: var(--destaque);
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-size: 0.7rem;
+    font-weight: 600;
+    position: relative;
+    margin-left:40px;
+}
+
+.chef__apresentacao::before{
+    content: '';
+    background: var(--destaque);
+    top: 8px;
+    left: -40px;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+}
+
+.chef__ex{
+    color: var(--destaque);
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: var(--font-family2);
+}
+
+
+.chef__name{
+    color: var(--creme);
+    font-size: 3rem;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+.chef__text{
+    font-family: var(--font-family);
+    width: 75%;
+    color: var( --text-creme-50);
+    padding: 5px 0px;
+}
+
+.chef__ass{
+    font-style: italic;
+    color: var(--text-creme-50);
+    font-weight: 400;
+    padding: 10px 0px;
+}

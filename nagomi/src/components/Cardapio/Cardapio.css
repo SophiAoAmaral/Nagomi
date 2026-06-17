@@ -2,10 +2,11 @@
 
 .cardapio__box{
     background: var(--background);
+    border-bottom:1px solid var(--destaque-claro) ;
 }
 
 .cardapio__container{
-    padding-top: 10rem;
+    padding: 8rem 0px;
 }
 
 .box-cardapio{
