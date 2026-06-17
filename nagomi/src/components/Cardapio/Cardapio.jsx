@@ -5,7 +5,7 @@ import { pratos } from "./Pratos";
 export const Cardapio = () => {
   return (
     <section className='cardapio__box'>
-        <section className="container cardapio__container  ">
+        <section className="container cardapio__container" id="cardapio">
           <header className="cardapio__header">
             <p className="cardapio__detail">品書き · seleção da casa</p>
             <h2 className="cardapio__title">Do balcão à mesa, o essencial.</h2>
@@ -16,7 +16,7 @@ export const Cardapio = () => {
           </header>
           <ul className="box-cardapio">
             {pratos.map((prato) => (
-              <li>
+              <li key={prato.id}>
                 <article className="parto__container">
                   <div className="img__box">
                     <img src={prato.img} alt="" />
@@ -34,6 +34,9 @@ export const Cardapio = () => {
             ))}
             <li></li>
           </ul>
+          <div className="box-reserva">
+              <a className="reservar">Reservar para experiencia completa</a>
+          </div>
         </section>
     </section>
   );

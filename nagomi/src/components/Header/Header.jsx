@@ -29,13 +29,13 @@ export const Header = () => {
     <header className="header">
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container header-box">
-          <Link className="logo" to="/">NAGOMI 和み</Link>
+          <a className="logo">NAGOMI 和み</a>
           <ul className="box-header">
-            <li><Link to="/filosofia">Filosofia</Link></li>
-            <li><Link to="/cardapio">Cardápio</Link></li>
-            <li><Link to="/chef">O Chef</Link></li>
-            <li><Link to="/omakase">Omakase</Link></li>
-            <Link to="/reserva" className="btn-reserva">Reservar</Link>
+            <li><a href='#filosofia'>Filosofia</a></li>
+            <li><a href='#cardapio' >Cardápio</a></li>
+            <li><a href='#chef'>O Chef</a></li>
+            <li><a href='#chef' >Omakase</a></li>
+            <a className="btn-reserva">Reservar</a>
           </ul>
         </div>
       </nav>

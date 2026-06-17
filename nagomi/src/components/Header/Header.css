@@ -58,6 +58,7 @@
     font-weight: 300;
     font-size: 0.9rem;
     position: relative;
+    cursor: pointer;
 }
 
 .box-header li a:hover::before{
