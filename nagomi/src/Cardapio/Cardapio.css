@@ -1,0 +1,14 @@
+img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 700px;
+}
+
+
+.box-cardapio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    gap: 50px;
+}

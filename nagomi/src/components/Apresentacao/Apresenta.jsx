@@ -1,7 +1,7 @@
 import React from 'react'
 import image1 from '../../imgs/filo-1.jpg'
-import image2 from '../../imgs/filo-1.jpg'
-import image3 from '../../imgs/filo-1.jpg'
+import image2 from '../../imgs/filo-2.jpg'
+import image3 from '../../imgs/filo-3.jpg'
 import './Apresenta.css'
 
 export const Apresenta = () => {
