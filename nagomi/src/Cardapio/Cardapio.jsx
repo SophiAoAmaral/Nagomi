@@ -4,36 +4,37 @@ import { pratos } from "./Pratos";
 
 export const Cardapio = () => {
   return (
-    <section className="container">
-      <header>
-        <p lang="ja">
-          品書き · <span>seleção da casa</span>
-        </p>
-        <h2 id="menu-titulo">Do balcão à mesa, o essencial</h2>
-        <p>
-          Uma amostra do nosso repertório. O cardápio completo acompanha a
-          estação e a pesca do dia.
-        </p>
-      </header>
-
-      <ul className="box-cardapio">
-        {pratos.map((prato) => (
-          <li>
-            <article>
-              <img src={prato.img} alt="" />
-              <div>
-                <header>
-                 <h3>{prato.nome}</h3>
-                  <span>{prato.preco}</span>
-                </header>
-                <p>{prato.nomeJp}</p>
-                <p>{prato.descricao}</p>
-              </div>
-            </article>
-          </li>
-        ))}
-        <li></li>
-      </ul>
+    <section className='cardapio__box'>
+        <section className="container cardapio__container  ">
+          <header className="cardapio__header">
+            <p className="cardapio__detail">品書き · seleção da casa</p>
+            <h2 className="cardapio__title">Do balcão à mesa, o essencial.</h2>
+            <p className="cardapio__description">
+              Uma amostra do nosso repertório. O cardápio completo acompanha a
+              estação e a pesca do dia.
+            </p>
+          </header>
+          <ul className="box-cardapio">
+            {pratos.map((prato) => (
+              <li>
+                <article className="parto__container">
+                  <div className="img__box">
+                    <img src={prato.img} alt="" />
+                  </div>
+                  <div>
+                    <header className="prato__box">
+                     <h3>{prato.nome}</h3>
+                      <span>{prato.preco}</span>
+                    </header>
+                    <p className="prato__japan">{prato.nomeJp}</p>
+                    <p className="prato__description">{prato.descricao}</p>
+                  </div>
+                </article>
+              </li>
+            ))}
+            <li></li>
+          </ul>
+        </section>
     </section>
   );
 };

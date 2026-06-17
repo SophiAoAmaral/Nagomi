@@ -1,6 +1,7 @@
 .content-apresent{
     background-color: #1C1813;
     height: 100vh;
+    border-bottom: 1px solid var(--destaque-claro);
 }
 .container-apresent{
     padding-top: 10rem;
