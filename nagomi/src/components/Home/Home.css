@@ -183,12 +183,35 @@
     .hero-title{
         padding:5px ;
         margin-top: 1rem;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .hero-p{
         font-size: 1rem;
         width: 90%;
     }   
+
+    .hero-links ul li:first-child{
+        background-color: var(--vermelho);
+        padding: 10px;
+        font-size: 15px;
+
+    }
+    .hero-links ul li:first-child:hover{
+    background-color: #70261b;
+    transform:none;
+    }
+
+    .hero-links ul li:last-child{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .hero-links ul li:last-child::before{
+        width: 85%;
+        top: 35px;
+
+    }
+
 
 }
