@@ -75,9 +75,6 @@ img{
 .img__box:hover img{
     transform: scale(1.08);
 }
-.parto__container{
-    font-family: var(--font-family2);
-}
 
 .prato__box{
     display: flex;
@@ -141,4 +138,49 @@ img{
 }
 .reservar:hover::before{
     background: var(--creme);
+}
+
+
+@media(max-width:600px){
+
+.cardapio__container{
+    padding: 5rem 0px;
+}
+.box-cardapio{
+    grid-template-columns: 1fr;
+    list-style: none;
+    gap: 50px;
+}
+
+.cardapio__header{
+    width: 500px;
+}
+
+.cardapio__title{
+    font-size: 2.5rem;
+    font-weight: 100;
+    padding: 5px 0px;
+}
+
+.cardapio__description{
+    margin: 20px 0px;
+    line-height: 1.5em ;
+}
+
+img{
+    height: 500px;
+
+}
+.prato__box, 
+.prato__japan,
+.prato__description{
+    padding: 0px 20px;
+}
+
+.prato__japan{
+    margin-bottom: 5px;
+}
+
+
+
 }

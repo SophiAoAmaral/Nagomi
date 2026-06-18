@@ -152,10 +152,12 @@
 
     .text-apresent {
         font-size: 1.2rem;
+        width: 100%;
     }
 
     .subtext-apresent {
         font-size: 1rem;
+        width: 100%;
     }
 
     .content-images {
@@ -163,4 +165,8 @@
         grid-template-rows: 150px 150px;
         gap: 5px;
     }
+
+
+
+
 }

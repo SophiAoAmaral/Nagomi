@@ -19,7 +19,7 @@ export const Cardapio = () => {
               <li key={prato.id}>
                 <article className="parto__container">
                   <div className="img__box">
-                    <img src={prato.img} alt="" />
+                    <img src={prato.img} alt={prato.nome} />
                   </div>
                   <div>
                     <header className="prato__box">
