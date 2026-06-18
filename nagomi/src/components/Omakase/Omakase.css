@@ -79,6 +79,10 @@
 
 
 @media (max-width:600px){
+    .container__omakase{
+        padding-top: 8rem;
+    }
+
     .omakase__detail{
     font-size: 0.6rem;
 }
