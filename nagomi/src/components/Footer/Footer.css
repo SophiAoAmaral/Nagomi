@@ -58,3 +58,32 @@
     font-family: var(--font-family);
     font-size: 0.8em;
 }
+
+
+
+@media (max-width:600px){
+    .footer-container{
+    padding-top: 3rem;
+    height: auto;
+}
+.footer-box{
+    flex-direction: column;
+    padding-bottom: 3rem;
+    align-items: start;
+}
+.list-footer{
+    gap: 30px;
+    margin-top: 10px;
+
+}
+.title-list{
+    font-size: 0.9rem;
+}
+
+.items-footer{
+    font-size: 0.7rem;
+    transition: 0.3s;
+}
+
+
+}

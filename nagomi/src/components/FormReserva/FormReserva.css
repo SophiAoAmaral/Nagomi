@@ -191,3 +191,14 @@ label{
 .ofline{
     display: none;
 }
+
+
+@media (max-width:600px){
+    .form{
+        height: auto;
+    }
+    .form__container{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+}
