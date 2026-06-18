@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './Header.css'
-import {Link} from 'react-router'
-
 
 export const Header = () => {
  const [scrolled, setScrolled] = useState(false)
