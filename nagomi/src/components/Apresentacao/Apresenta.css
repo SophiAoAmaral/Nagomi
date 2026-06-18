@@ -130,3 +130,37 @@
 .image-3:hover img {
     transform: scale(1.08);
 }
+
+
+
+@media (max-width:560px) {
+
+    .content-apresent {
+        height: auto;
+    }
+
+    .container-apresent {
+        padding-top: 5rem;
+        grid-template-columns: 1fr;
+        gap: 50px;
+
+    }
+
+    .title-apresent {
+        font-size: 2.5rem;
+    }
+
+    .text-apresent {
+        font-size: 1.2rem;
+    }
+
+    .subtext-apresent {
+        font-size: 1rem;
+    }
+
+    .content-images {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px;
+        gap: 5px;
+    }
+}

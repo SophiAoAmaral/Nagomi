@@ -169,7 +169,7 @@
 }
 
 
-@media(max-width:560px){
+@media(max-width:600px){
     .box-container{
         background: var(--background);
     }
