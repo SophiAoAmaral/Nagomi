@@ -93,8 +93,13 @@
     .box-header {
         display: none;
     }
-
-    .navbar {
-        width: 75%;
+    .navbar{
+        transition: none;
     }
-}
+    .navbar.scrolled{
+        width: auto%;
+    }
+       
+        
+    }
+
