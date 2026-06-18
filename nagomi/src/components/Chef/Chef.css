@@ -87,3 +87,36 @@
     font-weight: 400;
     padding: 10px 0px;
 }
+
+
+
+@media (max-width:600px){
+.chef__box{
+    padding: 5rem 0px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.detail__chef{
+    top: 300px;
+    right: 10px;
+}
+
+.chef__ex{
+    margin-top: 10px;
+    font-size: 1rem;
+    padding:0px 10px;
+}
+.chef__name{
+    font-size: 2rem;
+    padding: 10px 10px;
+    font-weight: 400;
+}
+.chef__text{
+    width: 100%;
+    padding: 5px 10px;
+}
+.chef__ass{
+    padding: 10px 10px;
+}
+
+}
