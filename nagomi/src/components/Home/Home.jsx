@@ -17,10 +17,10 @@ export const Home = () => {
       <div className='hero-links'>
         <ul>
           <li>
-            <Link to='/reservar'>Reservar Mesa</Link>
+            <a to='/reservar'>Reservar Mesa</a>
           </li>
           <li>
-            <Link to='/cardapio'>Ver o cardapio</Link>
+            <a to='/cardapio'>Ver o cardapio</a>
           </li>
         </ul>
       </div>
