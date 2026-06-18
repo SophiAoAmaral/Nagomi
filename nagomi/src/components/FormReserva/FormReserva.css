@@ -200,5 +200,9 @@ label{
     .form__container{
         grid-template-columns: 1fr;
         height: auto;
+        gap: 30px;
+    }
+    .form__box{
+        padding: 5px;
     }
 }
