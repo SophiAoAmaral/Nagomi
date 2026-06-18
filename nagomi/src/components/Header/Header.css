@@ -96,8 +96,10 @@
     .navbar{
         transition: none;
     }
-    .navbar.scrolled{
-        width: auto%;
+    .navbar.scrolled {
+        background: transparent;
+        border-bottom: none;
+        display: none;
     }
        
         
