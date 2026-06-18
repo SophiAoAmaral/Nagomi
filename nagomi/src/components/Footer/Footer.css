@@ -88,5 +88,8 @@
 .footer-text{
     width: 100%;
 }
+.footer-copy{
+    font-size: 0.6em;
+}
 
 }

@@ -49,7 +49,7 @@ export const FormReserva = () => {
 
             <div className={enviado ? 'enviado' : 'form__box'}>
                 <h3>Solicitar reserva</h3>
-                <form onSubmit={handleSubmit}  className="formulario ">
+                <form onSubmit={handleSubmit}  className="formulario">
 
                     <div className='form-inputs'>
                         <label htmlFor="nome">Nome</label>

@@ -99,14 +99,9 @@
         display: none;
     }
 }
-    .navbar.scrolled {
-        background: transparent;
-        border-bottom: none;
-        display: none;
-    }
-       
+
     .navbar{
-        max-width: 400px;
+        max-width: auto;
     }
         
 

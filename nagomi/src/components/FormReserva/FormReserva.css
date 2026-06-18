@@ -68,6 +68,7 @@
     font-family: var(--font-family);
     height: 70vh;
     border-bottom: 1px solid var(--linhas);
+    
 }
 
 input, select{
@@ -87,6 +88,7 @@ select:focus{
     background-color: #1C1813;
     border: 1px solid var(--destaque);
     padding: 20px;
+    border-radius: 10px;
 }
 
 .form__box h3{
@@ -204,5 +206,9 @@ label{
     }
     .form__box{
         padding: 5px;
+        margin-bottom: 30px;
     }
+    .active{
+    padding: 20px;
+}
 }

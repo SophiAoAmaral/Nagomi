@@ -15,10 +15,10 @@ export const Home = () => {
         <div className='hero-links'>
           <ul>
             <li>
-              <a to='/reservar'>Reservar Mesa</a>
+              <a href='#reservar'>Reservar Mesa</a>
             </li>
             <li>
-              <a to='/cardapio'>Ver o cardapio</a>
+              <a href='#cardapio'>Ver o cardapio</a>
             </li>
           </ul>
         </div>
