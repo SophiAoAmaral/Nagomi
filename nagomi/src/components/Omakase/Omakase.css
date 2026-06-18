@@ -76,3 +76,31 @@
 .button:hover{
     background: #4d1c14;
 }
+
+
+@media (max-width:600px){
+    .omakase__detail{
+    font-size: 0.6rem;
+}
+
+    .omakase__title{
+    font-size: 2rem;
+}
+
+    .omakase__text{
+    font-size: 0.5rem;
+    text-align: center;
+    width: 80%;
+}
+.destaque__omakase{
+    font-size: 0.9rem;
+}
+
+.button{
+    padding: 10px;
+    font-size: 10px; 
+    transition: none;  
+}
+
+
+}
