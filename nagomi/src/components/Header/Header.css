@@ -1,5 +1,3 @@
-
-
 .header{
     font-family: var(--font-family2);
     text-transform: uppercase;
@@ -47,6 +45,7 @@
     font-size: 2rem;
 }
 
+
 .logo:hover{
     background-color: #571a11;
     transition: 0.2s;
@@ -85,4 +84,13 @@
     color: rgba(228, 226, 222, 0.596);
     border: none;
     transition: 0.3s;
+}
+
+
+
+
+@media (max-width: 560px){
+    .box-header{
+        display: none;
+    }
 }
