@@ -11,7 +11,7 @@ export const FormReserva = () => {
     }
   return (
     <section className='form' id='reservar'>
-        <section className='container form__container'>
+        <section className='container form__container animaLeft'>
 
            <div className="form__info">
                 <span className="form__sobretitulo" lang="ja">予約 · Reservas</span>

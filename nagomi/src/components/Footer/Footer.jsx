@@ -4,7 +4,7 @@ import './Footer.css'
 export const Footer = () => {
   return (
     <section className='footer-container'>
-        <footer className='container footer-box'>
+        <footer className='container footer-box animaLeft'>
             <div>
                 <h1 className='logo-footer'>Nagomi 和み</h1>
                 <p className='footer-text'>Cozinha japonesa contemporânea. O encontro entre o mar, a brasa e o silêncio peça após peça.</p>

@@ -5,7 +5,7 @@ import { pratos } from "./Pratos";
 export const Cardapio = () => {
   return (
     <section className='cardapio__box'>
-        <section className="container cardapio__container" id="cardapio">
+        <section className="container cardapio__container animaLeft" id="cardapio">
           <header className="cardapio__header">
             <p className="cardapio__detail">品書き · seleção da casa</p>
             <h2 className="cardapio__title">Do balcão à mesa, o essencial.</h2>
@@ -35,7 +35,7 @@ export const Cardapio = () => {
             <li></li>
           </ul>
           <div className="box-reserva">
-              <a className="reservar">Reservar para experiencia completa</a>
+              <a className="reservar" href="#reservar">Reservar para experiencia completa</a>
           </div>
         </section>
     </section>

@@ -14,7 +14,7 @@ export const Omakase = () => {
   return (
     <>
     <section className='box__omakase' id='omakase'>
-            <div className='shadow__omakase'>
+            <div className='shadow__omakase animaLeft'>
                 <section className='container container__omakase'>
                     <span className='omakase__detail'>お任せ · Confie no Chef</span>
                     <h1 className='omakase__title'>Omakase do Balcão</h1>

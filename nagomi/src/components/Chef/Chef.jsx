@@ -6,7 +6,7 @@ export const Chef = () => {
   return (
     <section className='chef__container' id='chef'>
 
-            <section className='container chef__box'>
+            <section className='container chef__box animaLeft'>
                 <div className='chef__img'>
                     <img src={image} alt="" />
                     <span className='detail__chef'><span>28</span> Anos de ofício</span>
