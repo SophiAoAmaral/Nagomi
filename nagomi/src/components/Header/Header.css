@@ -89,8 +89,12 @@
 
 
 
-@media (max-width: 560px){
-    .box-header{
+@media (max-width: 560px) {
+    .box-header {
         display: none;
+    }
+
+    .navbar {
+        width: 75%;
     }
 }
