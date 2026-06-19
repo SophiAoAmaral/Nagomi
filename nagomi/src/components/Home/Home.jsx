@@ -3,8 +3,9 @@ import './Home.css'
 
 export const Home = () => {
   return (
-    <div className='box-shadow'> 
-  <section className='container box-container'>
+    <div className=' box-container' id='home'> 
+    <div className='box-shadow'>
+  <section className='container '>
       <div className='box-content animaLeft'>
       <div className='hero-content'>
         <div className='hero-text'>
@@ -34,6 +35,7 @@ export const Home = () => {
         <span>Role para descer</span>
       </div>
     </section>
+    </div>
      </div>
   )
 }
