@@ -60,6 +60,28 @@
 }
 
 
+@media (max-width:1500px){
+   .footer-container{
+    padding-top: 2rem;
+    height: auto;
+
+}
+   
+   
+    .footer-box{
+    padding: 10px 0px 15px 50px;
+    margin-bottom: 10px;
+}
+    .footer-text{
+    width: 100%;
+}
+    .footer-copy{
+    font-size: 0.6em;
+
+}
+
+}
+
 
 @media (max-width:600px){
     .footer-container{

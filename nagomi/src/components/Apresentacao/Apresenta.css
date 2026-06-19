@@ -131,6 +131,40 @@
 }
 
 
+@media (max-width:1500px) {
+
+
+    .text-apresent {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .subtext-apresent {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .box-apresentation{
+        padding: 10px;
+    }
+    .container-apresent{
+   padding-top:5rem ;
+}
+
+    .content-images {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+        gap: 3px;
+    }
+    
+    .image-1{
+        display: none;
+    }
+
+}
+
+
+
+
 
 @media (max-width:560px) {
 

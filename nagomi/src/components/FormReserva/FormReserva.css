@@ -194,6 +194,15 @@ label{
     display: none;
 }
 
+@media (max-width:1500px){
+    .form{
+        height: auto;
+    }
+    .form__box{
+        margin-bottom: 30px;
+    }
+}
+
 
 @media (max-width:600px){
     .form{

@@ -77,6 +77,14 @@
     background: #4d1c14;
 }
 
+@media (max-width: 1500px) {
+    .container__omakase{
+        padding-top: 8rem;
+    }
+
+}
+
+
 
 @media (max-width:600px){
     .container__omakase{

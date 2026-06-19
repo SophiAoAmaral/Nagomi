@@ -140,6 +140,21 @@ img{
     background: var(--creme);
 }
 
+@media (max-width: 1500px) {
+    .cardapio__header{
+        padding-top: 3rem;
+    }
+    .container{
+        max-width: 1500px;
+        padding: 0 2rem;
+    }
+
+    .reservar{
+    margin: 5px 0px 40px 00px;
+}
+
+}
+
 
 @media(max-width:600px){
 
