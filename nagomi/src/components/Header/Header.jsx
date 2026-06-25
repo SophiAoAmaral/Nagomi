@@ -27,7 +27,7 @@ export const Header = () => {
     <header className="header">
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="container header-box">
-          <a className="logo" href='#home'>NAGOMI 和み</a>
+          <a className="logo" href='#home'>NOGOMI 和み</a>
           <ul className="box-header">
             <li><a href='#filosofia'>Filosofia</a></li>
             <li><a href='#cardapio' >Cardápio</a></li>

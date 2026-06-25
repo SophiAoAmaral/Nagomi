@@ -11,7 +11,7 @@ export const Home = () => {
         <div className='hero-text'>
           <span className='detail-home'> 和食  ·  Cozinha japonesa </span>
           <p className='hero-title'>O silêncio entre o mar e a <span>brasa</span>.</p>
-          <p className='hero-p'>Em Nagomi, cada peça nasce do encontro entre o peixe perfeito, o arroz na temperatura exata e as mãos de quem dedicou a vida ao ofício. Uma experiência de balcão, conduzida em silêncio e atenção.</p>
+          <p className='hero-p'>Em Nogomi, cada peça nasce do encontro entre o peixe perfeito, o arroz na temperatura exata e as mãos de quem dedicou a vida ao ofício. Uma experiência de balcão, conduzida em silêncio e atenção.</p>
         </div>
         <div className='hero-links'>
           <ul>
